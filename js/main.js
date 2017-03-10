@@ -24,4 +24,9 @@ $(document).ready(function(){
       }
     ]
 });
+$(function(){
+  $.scrollIt({
+    topOffset: -55
+  });
+  });
 });

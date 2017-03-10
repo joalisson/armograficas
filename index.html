@@ -41,21 +41,21 @@
 </head>
 <body>
 <div id="wrapper">
-		<!-- <header id="header">
+		<header id="header">
 			<div class="container">
-				<div class="logo"><a href="#"><img src="images/logo.svg" alt="FORKIO"></a></div>
+				<div class="logo"><a href="#"><img src="images/logo2.png" alt="FORKIO"></a></div>
 				<nav id="nav">
 					<div class="opener-holder">
 						<a href="#" class="nav-opener"><span></span></a>
 					</div>
-					<a href="http://tympanus.net/codrops/?p=23525" class="btn btn-primary rounded">Buy Now</a>
+					<!-- <a href="http://tympanus.net/codrops/?p=23525" class="btn btn-primary rounded">Buy Now</a> -->
 					<div class="nav-drop">
 						<ul>
 							<li class="active visible-sm visible-xs"><a href="#">Home</a></li>
-							<li><a href="#">Overview</a></li>
-							<li><a href="#">About Fork</a></li>
-							<li><a href="#">Buying Options</a></li>
-							<li><a href="#">Support</a></li>
+							<li><a href="#" data-scroll-nav="0">Serviços</a></li>
+							<li><a href="#" data-scroll-nav="1">Clientes</a></li>
+							<li><a href="#" data-scroll-nav="2">Ofertas</a></li>
+							<li><a href="#" data-scroll-nav="3">Sobre</a></li>
 						</ul>
 						<div class="drop-holder visible-sm visible-xs">
 							<span>Follow Us</span>
@@ -68,7 +68,7 @@
 					</div>
 				</nav>
 			</div>
-		</header> -->
+		</header>
 	<section class="visual">
 		<div class="container">
 			<div class="text-block">
@@ -79,22 +79,23 @@
 		</div>
 		<!-- <img src="images/bg-color.jpg" alt="" class="bg-stretch"> -->
 	</section>
-	<section class="main">
+	<section class="main" data-scroll-index="0">
 		<div class="container">
 			<div class="row">
 				<div class="text-box col-md-offset-1 col-md-10">
           <h2>Serviços</h2>
+        </div>
           <div class="responsive">
-            <div style="height: 300px; margin: 4px; background-image: url('./images/panfleto-header1.jpg')">your content</div>
-            <div style="height: 300px; margin: 4px; background-image: url('./images/panfleto-header1.jpg')">your content</div>
-            <div style="height: 300px; margin: 4px; background-image: url('./images/panfleto-header1.jpg')">your content</div>
-            <div style="height: 300px; margin: 4px; background-image: url('./images/panfleto-header1.jpg')">your content</div>
-            <div style="height: 300px; margin: 4px; background-image: url('./images/panfleto-header1.jpg')">your content</div>
+            <div style="height: 300px; margin: 4px; background-image: url('./images/panfleto-header1.jpg')"></div>
+            <div style="height: 300px; margin: 4px; background-image: url('./images/panfleto-header1.jpg')"></div>
+            <div style="height: 300px; margin: 4px; background-image: url('./images/panfleto-header1.jpg')"></div>
+            <div style="height: 300px; margin: 4px; background-image: url('./images/panfleto-header1.jpg')"></div>
+            <div style="height: 300px; margin: 4px; background-image: url('./images/panfleto-header1.jpg')"></div>
           </div>
 			</div>
 		</div>
 	</section>
-	<section class="visual-container">
+	<section class="visual-container" data-scroll-index="1">
 		<div class="visual-area">
 			<div class="container">
 				<h2>Nossos Clientes</h2>
@@ -121,7 +122,7 @@
 			</div>
 			<!-- <img src="images/img-decor-02.jpg" height="764" width="1380" alt="" class="bg-stretch"> -->
 		</div>
-		<div class="visual-area">
+		<div class="visual-area" data-scroll-index="2">
 			<div class="container">
 				<h2>Aproveite nossas ofertas!</h2>
 				<div class="pricing-tables">
@@ -196,7 +197,7 @@
 			</div>
 		</div>
 	</section> -->
-	<footer id="footer">
+	<footer id="footer" data-scroll-index="3">
 		<div class="container">
 			<div class="footer-holder">
 				<div class="row">
@@ -240,5 +241,6 @@
 <script src="js/jquery.main.js"></script>
 <script src="js/slick.min.js"></script>
 <script src="js/main.js"></script>
+<script src="js/scrollIt.min.js"></script>
 </body>
 </html>

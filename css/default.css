@@ -18,11 +18,9 @@
     width: 500px
   }
 }
-.visual .text-block {
-    padding: 0px 0;
-  }
+
 .visual {
-  min-height: 350px;
+  min-height: 400px;
   background: url('../images/bg-color.jpg') no-repeat center center fixed !important ;
 -webkit-background-size: cover !important;
 -moz-background-size: cover !important;
